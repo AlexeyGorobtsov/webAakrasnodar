@@ -80,11 +80,55 @@ p.pj {
 .pl {
     text-align: justify;
     color: #669999;
-    margin-left: 55px;
     margin-bottom: 25px;
 
 }
 
 .small_text {
     font-size: 10px;
+}
+
+p.pj_c {
+    color: #999999;
+}
+
+p.p_bot {
+    color: #999999;
+
+    font-size: 12px;
+    margin: 9px 0 0 72px;
+}
+
+#rt a {
+    color: #669999;
+    outline: none;
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div#content {
+    display: flex;
+}
+
+div#copyright {
+    background: url("./images/ind_04.jpg");
+    background-size: initial;
+    background-position-x: -144px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    height: 66px;
+    margin: 0 0 10px 0;
+}
+
+p.p_informer {
+    margin: 0 140px 0 0;
 }
