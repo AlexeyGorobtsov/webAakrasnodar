@@ -85,7 +85,7 @@ p.pj {
 }
 
 .small_text {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 p.pj_c {
@@ -131,4 +131,30 @@ div#copyright {
 
 p.p_informer {
     margin: 0 140px 0 0;
+}
+
+div#right {
+    margin-top: 35px;
+}
+
+ul.meun li {
+    list-style: none;
+}
+
+div#lef {
+    flex: 3 1 0;
+}
+
+div#right {
+    flex: 1 1 0;
+}
+
+div#right h3 {
+    padding: 0 0 0 40px;
+}
+
+li.title {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
 }
