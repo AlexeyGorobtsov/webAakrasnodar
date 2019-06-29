@@ -25,7 +25,6 @@ body {
     background-size: cover;
 }
 
-
 a {
     text-decoration: none;
     color: #999999
@@ -44,7 +43,7 @@ a:hover {
 }
 
 .wrap-logo p {
-    color: #999999;
+    color: #3f3d3d;
     margin: 0;
     padding: 0 0 0 114px;
 }
@@ -116,6 +115,7 @@ h3 {
 
 div#content {
     display: flex;
+    padding: 8px;
 }
 
 div#copyright {
@@ -157,4 +157,141 @@ li.title {
     font-size: 14px;
     color: #ffffff;
     font-weight: bold;
+}
+
+.wrap-icon-menu {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+.bar-one, .bar-two, .bar-three {
+    width: 35px;
+    height: 4px;
+    background-color: #fff;
+    margin: 7px 0;
+    transition: 0.4s;
+}
+
+.side-right {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        max-width: unset;
+        background-size: contain;
+    }
+}
+@media (max-width: 680px) {
+    .logo h1 {
+        padding: 6px 0 0 20px;
+    }
+}
+
+@media only screen and (min-width : 560px) and (max-width : 634px) {
+    ul#nav {
+        margin: 0;
+    }
+    .logo h1 {
+        margin: 14px 0 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    p.p_informer {
+        margin: 0;
+    }
+}
+
+@media (max-width: 420px) {
+
+    p.p_bot span {
+        display: block;
+    }
+
+    p.p_bot {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 0 0 74px;
+    }
+
+    .wrap-icon-menu {
+        display: inline-block;
+    }
+
+    .logo {
+        background-size: cover;
+    }
+
+    .wrap-logo p {
+        padding: 0 0 0 108px;
+    }
+
+    .logo h1 {
+        padding: 30px 0 2px 40px;
+    }
+
+    ul#nav {
+        padding: 0 0 0 40px;
+        margin: 0;
+    }
+
+    iframe {
+        max-width: 358px;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrap-icon-menu {
+        right: 14px;
+        top: 14px;
+    }
+
+    .logo {
+        max-width: 320px;
+    }
+
+    .logo h1 {
+        padding: 30px 0 2px 12px;
+    }
+
+    .wrap-logo p {
+        padding: 0 0 0 90px;
+    }
+
+    ul#nav {
+        padding: 0;
+    }
+
+    iframe {
+        max-width: 306px;
+    }
+
+    div#content {
+        padding: 4px;
+    }
+
+    div#copyright {
+        background: unset;
+        padding: 4px;
+    }
+
+    p.p_bot {
+        margin: 0;
+    }
 }
